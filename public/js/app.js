@@ -1,5 +1,3 @@
-console.log('Client side javascript fille is lo=ssdimg');
-
 const weatherForm = document.querySelector('form');
 const search = document.querySelector('input');
 const messageOne = document.querySelector('#message-one');
