@@ -8,7 +8,7 @@ const forecast = (lat, long, callback) => {
         json: true
     }, (error, {body}) => {
         if (error) {
-            callback("Unable to connect to weather forecast service", undefined);
+            callback("Unable to connect to weather forecast service, you might want to check your internet connection and try again", undefined);
         } else if (body.message) {
             callback(body.message, undefined);
         } else {
